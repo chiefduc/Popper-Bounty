@@ -1,0 +1,30 @@
+{
+  "urls": [
+    ["https://www.ons.gov.uk/economy/inflation/", "https://www.ons.gov.uk/economy/inflation"],
+    ["HTTPS://Example.COM", "https://example.com/"],
+    ["https://example.com:443/a?b=1#frag", "https://example.com/a?b=1"],
+    ["  https://demo.popper.example/harbour-notice-41  ", "https://demo.popper.example/harbour-notice-41"],
+    ["https://news.example.org/a//", "https://news.example.org/a"],
+    ["http://example.com", null],
+    ["https://localhost/x", null],
+    ["https://127.0.0.1/", null],
+    ["https://192.168.1.1", null],
+    ["https://172.20.0.1/", null],
+    ["https://user@example.com/", null],
+    ["https://example.com:8080/", null],
+    ["https://intranet", null],
+    ["https://printer.local/", null],
+    ["https://example.com/ a", null],
+    ["https://[::1]/", null]
+  ],
+  "escape": [
+    ["A report contradicts this, unless I consider it biased.", ["unless i"]],
+    ["In My Opinion the figure is wrong by 2027.", ["in my opinion"]],
+    ["Official ONS data shows CPI above 4.0% in 2027.", []],
+    ["Any event I determine counts, at my discretion.", ["at my discretion", "i determine"]]
+  ],
+  "text": [
+    ["He said “Inflation  rose” — 4.3%", "he said \"inflation rose\" - 4.3%"],
+    ["  Tabs\tand\nnewlines  ", "tabs and newlines"]
+  ]
+}
